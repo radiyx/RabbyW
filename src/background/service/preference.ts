@@ -146,7 +146,7 @@ class PreferenceService {
   currentCoboSafeAddress?: Account | null;
 
   init = async () => {
-    const defaultLang = 'en';
+    const defaultLang = 'ru';
     this.store = await createPersistStore<PreferenceStore>({
       name: 'preference',
       template: {
